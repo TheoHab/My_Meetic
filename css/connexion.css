@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+html {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-image: url(/css/images/splash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#btn_inscription,
+#btn_connexion {
+    background-color: antiquewhite;
+    padding: 1%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+#btn_inscription>p,
+#btn_connexion>p {
+    font-size: 20px;
+    font-family: Fredoka;
+}
+
+#btn_inscription>button,
+#btn_connexion>button {
+    background-color: black;
+    color: red;
+    font-size: 18px;
+    width: 25%;
+}
+
+#main_connection {
+    display: none;
+    border: 2px solid red;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px black;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    margin-top: 7.5%;
+    text-align: center;
+}
+
+#main_inscription {
+    display: none;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    margin-top: 7.5%;
+    text-align: center;
+}
+
+#hobbies_inscription {
+    display: none;
+    border: 2px solid red;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    margin-top: 7.5%;
+}
+
+button {
+    padding: 1%;
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px black;
+    color: antiquewhite;
+    background-color: grey;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 1px 5px 5px black;
+}
+
+.button {
+    padding: 1em;
+    text-align: center;
+}
+
+#main_connection input,
+#main_inscription input {
+    border-color: red;
+    text-align: center;
+    width: 20rem;
+    height: 1.5rem;
+}
+
+#main_connection h3,
+#main_inscription h3 {
+    font-family: Fredoka One;
+}
+
+#main_connection p,
+#main_inscription p {
+    font-family: Fredoka One;
+    margin-left: 30%;
+    text-align: left;
+}
+
+#close_i:hover,
+#close_c:hover,
+#close_s:hover {
+    background-color: red;
+}
+
+.submit:hover {
+    background-color: green;
+}
+
+input {
+    margin: .5em;
+}
+
+select {
+    display: inline-flex;
+}
